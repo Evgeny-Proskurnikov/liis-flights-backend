@@ -3,7 +3,7 @@
 ## Описание
 
 Серверная сторона проекта liis-flights. API разработан по принципам REST.
-
+https://api.liisflights.students.nomoreparties.xyz/
 
 ## Запуск проекта
 
