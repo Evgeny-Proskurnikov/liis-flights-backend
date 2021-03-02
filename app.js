@@ -11,7 +11,7 @@ const { DEV_DB_HOST, HOSTS } = require('./utils/config');
 const { limiter } = require('./middlewares/rate-limiter');
 const routers = require('./routers/index');
 
-const { PORT = 3000, NODE_ENV, DB_HOST } = process.env;
+const { PORT = 3002, NODE_ENV, DB_HOST } = process.env;
 const app = express();
 
 // подключаемся к серверу mongo
