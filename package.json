@@ -1,0 +1,41 @@
+{
+  "name": "liis-flights-backend",
+  "version": "1.0.0",
+  "description": "Бэкенд проекта liis-flights",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "set NODE_ENV=dev && nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeny-Proskurnikov/liis-flights-backend.git"
+  },
+  "author": "Evgeny Proskurnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeny-Proskurnikov/liis-flights-backend/issues"
+  },
+  "homepage": "https://github.com/Evgeny-Proskurnikov/liis-flights-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "express-winston": "^4.0.5",
+    "helmet": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "validator": "^13.5.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
